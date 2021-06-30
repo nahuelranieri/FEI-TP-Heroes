@@ -1,0 +1,162 @@
+/*Body*/
+
+body {
+    font-family: "Roboto", "sans seriff";
+}
+
+/*Header*/
+
+.discount {
+    position: absolute;
+    background-color: #1cd1b0;
+    width: 1024px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+}
+
+.discount p {
+    position: absolute;
+    left: 10px;
+    font-size: 15px;
+    top: 10px;
+    margin-top: 0;
+}
+
+.heroes {
+    position: fixed;
+    background-color: #00669F;
+    width: 1024px;
+    height: 101px;
+    top: 38px;
+    left: 0px;
+    z-index: 5;
+    box-shadow: 0px 10px 10px -2px gray;
+}
+
+.heroes h1 {
+    position: absolute;
+    left: 28px;
+    font-size: 40px;
+    width:128px;
+    height:47px;
+
+}
+
+/*Container*/
+/*Fixear el container, esta corrido*/
+
+.container{
+    position:absolute;
+    width: 1024px;
+    height: 833px;
+    top:139px;
+    left:32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+/*Cards*/
+
+.batman {
+    position: relative;
+    border-radius: 30px 30px 0px 0px;
+    background-color:#F3F3F3;
+    display: inline-block;
+    height: 600px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0px 10px 10px -2px gray;
+}
+
+.harley{
+    position: relative;
+    border-radius: 30px 30px 0px 0px;
+    background-color:#F3F3F3;
+    display: inline-block;
+    height: 600px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0px 10px 10px -2px gray;
+}
+
+.batman-2{
+    position: relative;
+    border-radius: 30px 30px 0px 0px;
+    background-color:#F3F3F3;
+    display: inline-block;
+    height: 600px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0px 10px 10px -2px gray;
+}
+
+.container i {
+    color: #CC2424;
+    font-size: 2em;
+    position: absolute;
+    z-index: 1;
+    left:21px;
+    top:21px;
+}
+
+#logo {
+    position: relative;
+    z-index: 2;
+    border-radius: 150px;
+    bottom:70px;
+}
+
+.container h2 {
+    position: relative;
+    bottom: 70px ;
+    font-size: 30px;
+}
+
+.container p {
+    position: relative;
+    text-align: left;
+    font-size: 16px;
+    width: 267px;
+    height: 113px;
+    left: 20px;
+    bottom: 70px ;
+}
+
+.container button{
+    position: relative;
+    background-color: #00669F;
+    color: white;
+    width: 128px;
+    height: 48px;
+    font-size: 15px;
+    bottom: 15px;
+    border-width: 0px;
+}
+
+
+/*Footer*/
+
+footer{
+    position: absolute;
+    background-color: #00669F;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top:972px;
+    
+}
+
+footer span {
+    color: #FFF9F9;
+    left: 10px;
+    font-size:15px;
+    position: absolute;
+    left: 10px;
+    font-size: 15px;
+    top: 15px;
+    margin-top: 0;
+}
